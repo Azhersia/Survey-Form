@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Niche Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="menu">
+
+        <h1 id="title">Niche survey</h1>
+        <p id="description">This survey consist of basic questions surrounding niche, thank you for anwsering
+            truthfully!</p>
+
+
+        <form id="survey-form">
+            <label id="name-label" <p>Your steam username.</p>
+                <form id="survey-form">
+                    <input id="name" type="text" required placeholder="Steam name">
+            </label>
+
+
+            <label id="email-label">
+                <p>Your steam email.</p>
+                <input id="email" type="email" required placeholder="Main Email">
+            </label>
+
+            <label id="number-label">
+                <p>Years played. (if under a year, enter 0)</p>
+                <input id="number" type="number" min="0000" max="9999" required placeholder="years">
+            </label>
+
+
+            <label>
+                <p>Do you enjoy Niche?</p>
+            </label>
+            <select id="dropdown">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+
+            <label>
+                <p> Have you beat niche story mode?</p>
+                </lable>
+                <label><input id="storymode-yes" type="radio" name="yes-no" value="Storymode-yes" checked> Yes</label>
+                <label><input id="storymode-no" type="radio" name="yes-no" value="Storymode-no"> No</label>
+
+                <fieldset>
+                    <legend><label>
+                            <p> What is your favourite genes in Niche? (multiple can be selected)</p>
+                        </label></legend>
+                    <input value="poisonfangs" type="checkbox" type="checkbox"><label
+                        for="poisonfangs">Poisonfangs</label>
+                    <input value="bigbody" type="checkbox" type="checkbox"><label for="bibody">Bibody</label>
+                    <input value="bignose" type="checkbox" type="checkbox"><label for="bignose">Bignose</label>
+                    <input value="bearyenaclaw" type="checkbox" type="checkbox"><label
+                        for="bearyenaclaw">Bearyenaclaw</label>
+                    <input value="bigears" type="checkbox" type="checkbox"><label for="bigears">Bigears</label>
+                    <input value="others" type="checkbox" type="checkbox"><label for="others">Other</label>
+                </fieldset>
+
+                <label>
+                    <p>How could we improve Niche?</p>
+                </label>
+                <textarea name="improve" rows="3" cols="30"
+                    placeholder="I think a new type of ... would ..."></textarea>
+
+                <input id="submit" type="submit" value="submit">
+        </form>
+</body>
+
+</html>

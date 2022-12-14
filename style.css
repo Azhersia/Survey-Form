@@ -1,0 +1,14 @@
+body {
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1830151557950482639/32504524E47EAFD118AC9836913A9B38430702A1/?imw=1024&imh=575&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    background-size: cover;
+    text-align: center;
+}
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
